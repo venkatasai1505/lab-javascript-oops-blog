@@ -3,6 +3,7 @@ class Blog{
         this.title=title;
         this.detail=detail;
     }
+    
     addTitle(){
         var title_card = document.createElement('h1');
         title_card.setAttribute("id","blog-title");
